@@ -12,4 +12,5 @@ fun main(args: Array<String>) {
     val numbers = setOf(1, 5, 9)
     println(numbers.max())                      //打印set集合中的最大元素，对应的是Java中的java.util.Collections.max(set)
     println(numbers.last())
+
 }

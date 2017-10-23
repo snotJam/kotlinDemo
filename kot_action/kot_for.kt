@@ -22,4 +22,12 @@ fun main(args: Array<String>) {
                                         // 这里step 2就表示遍历2个数值才执行一次，第一次是100，执行一次，第二次是98而不是99
         println(fizzBuzz(i))
     }
+
+    val strings = listOf("first", "second", "third")
+    args.forEach {                      //另一种遍历
+        if(it.startsWith("4")){
+            println("for Each")
+        }
+    }
+
 }
