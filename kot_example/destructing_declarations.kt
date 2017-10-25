@@ -2,11 +2,12 @@ package kot_online
 
 /**
  * Created by NewNet on 2017/10/13.
- * 结构声明
+ * 解构声明
+ * 用参数接收一个对象，其实也就是将对象分解，赋值给参数
  */
 fun main(args: Array<String>) {
     val pair = Pair(1, "one")
-    val(num, name) = pair                   //解构，参数接收类中的方法返回
+    val(num, name) = pair                           //解构，前面的参数接收类中的方法返回值
 
     println("num = $num,name = $name")
 }
